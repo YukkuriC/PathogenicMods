@@ -1,0 +1,19 @@
+# === unpacked project ===
+# dirs
+.assets
+.godot
+addons
+ai
+docs
+gfx
+mod_example
+scn
+sfx
+translations
+
+# root files
+default_bus_layout.tres
+gdre_export.log
+icudt_godot.dat
+project.godot
+steam_data.json

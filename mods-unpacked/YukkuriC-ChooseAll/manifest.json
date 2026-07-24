@@ -1,0 +1,26 @@
+{
+	"dependencies": [],
+	"description": "中文：\n“我全都要！”\n在道具选项前（包括道具奖励房和Boss奖励），你可以拿走所有道具。\n----------\nEnglish:\n\"I want them all!\"\nIn item choices (including free body part rooms and boss rewards), you can take ALL of them.",
+	"extra": {
+		"godot": {
+			"authors": [
+				"AuthorName"
+			],
+			"compatible_game_version": [],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {},
+			"description_rich": "",
+			"image": "icon.jpg",
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": []
+		}
+	},
+	"name": "ChooseAll",
+	"namespace": "YukkuriC",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/YukkuriC/PathogenicMods"
+}
