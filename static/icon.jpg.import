@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2x65jh3vu3wb"
-path="res://.godot/imported/icon.jpg-8b325f613292cd3b5faac139aeee9569.ctex"
+uid="uid://g811xw1ab5u5"
+path="res://.godot/imported/icon.jpg-b56d1d31ccc722f0f254b1ff2ebbab8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/YukkuriC-ChooseAll/icon.jpg"
-dest_files=["res://.godot/imported/icon.jpg-8b325f613292cd3b5faac139aeee9569.ctex"]
+source_file="res://static/icon.jpg"
+dest_files=["res://.godot/imported/icon.jpg-b56d1d31ccc722f0f254b1ff2ebbab8d.ctex"]
 
 [params]
 
