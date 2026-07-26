@@ -3,8 +3,11 @@ import json
 import re
 from pathlib import Path
 
-MODS_DIR = Path(__file__).resolve().parent.parent / "mods-unpacked"
-OUTPUT_FILE = Path(__file__).resolve().parent.parent / "README.md"
+ROOT = Path(__file__).resolve().parent.parent
+MODS_DIR = ROOT / "mods-unpacked"
+ICONS_DIR = ROOT / "static" / "icons"
+OUTPUT_FILE = ROOT / "README.md"
+ICON_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp", ".gif")
 
 
 def load_manifests():
@@ -17,6 +20,14 @@ def load_manifests():
     return manifests
 
 
+def find_icon(name):
+    for ext in ICON_EXTENSIONS:
+        icon_path = ICONS_DIR / (name + ext)
+        if icon_path.is_file():
+            return icon_path.relative_to(ROOT).as_posix()
+    return None
+
+
 def build_mod_section(m):
     name = m.get("name", "Unknown")
     version = m.get("version_number", "")
@@ -26,7 +37,12 @@ def build_mod_section(m):
     # Markdown 硬换行：行末两空格
     description = description.replace("\n", "  \n")
 
-    section = [f"## {name}"]
+    icon_rel = find_icon(name)
+    header = f"## {name}"
+    if icon_rel:
+        header += f" <img src=\"{icon_rel}\" alt=\"{name}\" height=\"32\">"
+
+    section = [header]
     if version:
         section.append(f"**Version:** {version}")
     section.append("")

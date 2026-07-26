@@ -1,6 +1,6 @@
 # Pathogenic Mods
 
-## ChooseAll
+## ChooseAll <img src="static/icons/ChooseAll.jpg" alt="ChooseAll" height="32">
 **Version:** 1.0.0
 
 中文：  
@@ -17,7 +17,7 @@ In level-ups (no shape changing), you can choose 0-4 items at will, instead of f
 
 ---
 
-## UnlockBrain
+## UnlockBrain <img src="static/icons/UnlockBrain.png" alt="UnlockBrain" height="32">
 **Version:** 1.0.0
 
 中文：  
