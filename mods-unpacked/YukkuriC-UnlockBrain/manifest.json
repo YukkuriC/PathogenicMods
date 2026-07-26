@@ -1,0 +1,26 @@
+{
+	"dependencies": [],
+	"description": "中文：\n强制在心脏Boss后解锁大脑关入口\n----------\nEnglish:\nForce-unlock the entrance of level brain after defeating Heart Boss",
+	"extra": {
+		"godot": {
+			"authors": [
+				"YukkuriC"
+			],
+			"compatible_game_version": [],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": []
+		}
+	},
+	"name": "UnlockBrain",
+	"namespace": "YukkuriC",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/YukkuriC/PathogenicMods"
+}
