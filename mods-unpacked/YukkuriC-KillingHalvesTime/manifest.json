@@ -1,0 +1,26 @@
+{
+	"dependencies": [],
+	"description": "中文：\n击杀敌人将减半关卡与毒圈计时\n----------\nEnglish：\nKilling enemies halves the timer of level and acid circle",
+	"extra": {
+		"godot": {
+			"authors": [
+				"YukkuriC"
+			],
+			"compatible_game_version": [],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": []
+		}
+	},
+	"name": "KillingHalvesTime",
+	"namespace": "YukkuriC",
+	"version_number": "1.0.0",
+	"website_url": ""
+}

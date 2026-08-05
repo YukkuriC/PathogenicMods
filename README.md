@@ -17,6 +17,19 @@ In level-ups (no shape changing), you can choose 0-4 items at will, instead of f
 
 ---
 
+## KillingHalvesTime
+**Version:** 1.0.0
+
+中文：  
+击杀敌人将减半关卡与毒圈计时  
+  
+—  
+  
+English：  
+Killing enemies halves the timer of level and acid circle
+
+---
+
 ## UnlockBrain <img src="static/icons/UnlockBrain.png" alt="UnlockBrain" height="32">
 **Version:** 1.0.0
 
