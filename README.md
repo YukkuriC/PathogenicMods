@@ -30,6 +30,19 @@ Killing enemies halves the timer of level and acid circle
 
 ---
 
+## SyncUnlocks
+**Version:** 1.0.0
+
+中文：  
+跨职业同步解锁进度。任意职业达成的统计进度会同步到所有其他职业，让组件解锁条件跨职业共享。  
+  
+—  
+  
+English：  
+Syncs unlock progress across all parasite types. Stats achieved by any parasite are synced to all others, sharing component unlock conditions across classes.
+
+---
+
 ## UnlockBrain <img src="static/icons/UnlockBrain.png" alt="UnlockBrain" height="32">
 **Version:** 1.0.0
 

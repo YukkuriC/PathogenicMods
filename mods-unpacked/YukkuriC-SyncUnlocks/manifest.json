@@ -1,0 +1,26 @@
+{
+	"dependencies": [],
+	"description": "中文：\n跨职业同步解锁进度。任意职业达成的统计进度会同步到所有其他职业，让组件解锁条件跨职业共享。\n----------\nEnglish：\nSyncs unlock progress across all parasite types. Stats achieved by any parasite are synced to all others, sharing component unlock conditions across classes.",
+	"extra": {
+		"godot": {
+			"authors": [
+				"YukkuriC"
+			],
+			"compatible_game_version": [],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": []
+		}
+	},
+	"name": "SyncUnlocks",
+	"namespace": "YukkuriC",
+	"version_number": "1.0.0",
+	"website_url": ""
+}
